@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <form action="homepage.html">
+        <div id="container">
+            <div id="logoArea">
+                <img src="images/register.png">
+                <h3>Registration</h3>
+            </div>
+            <div id="inputFieldArea">
+                <div class="groupField">
+                    <small>Personal Information</small> <br>
+                    <label>Enter Firstname: </label><br>
+                    <input type="text" id="fname" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label>Enter Middlename: </label><br>
+                    <input type="text" id="mname" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label>Enter Lastname: </label><br>
+                    <input type="text" id="lname" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label>Select Suffix: </label><br>
+                    <select id="Suffix">
+                        <option>None</option>
+                        <option>Jr</option>
+                        <option>Sr</option>
+                        <option>I</option>
+                        <option>II</option>
+                        <option>III</option>
+                        <option>IV</option>
+                        <option>V</option>
+                    </select>
+                </div>
+                <div class="groupField">
+                    <label>Pick Birthdate </label><br>
+                    <input type="date" id="bdate" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label>Enter Email Address: </label><br>
+                    <input type="email" id="email" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <small id="guide">User Account Information</small><br>
+                    <label>Enter Username: </label><br>
+                    <input type="text" id="username" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label>Enter Password: </label><br>
+                    <input type="password" id="password" autocomplete="off" required>
+                </div>
+                <div id="buttonArea">
+                    <button type="reset">Cancel</button>
+                    <button type="submit">Submit</button>
+
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#container{
+    width: 450px;
+    height: auto;
+    margin: 50px auto;
+    box-shadow: 1px 2px 4px 2px rgba(2, 2, 2, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+#logoArea{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+    align-items: center;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    flex-direction: column;
+    
+    
+}
+#logoArea img{
+    width: 100px;
+    height: 100px;
+}
+#inputFieldArea{
+    width: 300px;
+    margin: 20px auto;
+}
+#inputFieldArea small{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #E0FFFF;
+}
+.groupField{
+    margin: 15px auto;
+    font-weight: bold;
+    color: #E0FFFF;
+}
+.groupField input,
+.groupField select{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.groupField input:focus,
+.groupField select:focus {
+    outline: none;
+}
+#container #buttonArea{
+    text-align: center;
+}
+#buttonArea button{
+    background-color: darkgoldenrod;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+}
+#buttonArea button:hover {
+    font-size: 18px;
+    background-color: darkcyan;
+    transition: .5s all ease;
+}
